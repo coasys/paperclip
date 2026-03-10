@@ -1,0 +1,24 @@
+{
+  "name": "@paperclipai/ad4m-client",
+  "version": "0.1.0",
+  "description": "AD4M client for Paperclip — replaces PostgreSQL with AD4M distributed storage",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@coasys/ad4m": "^0.12.0-rc1-dev.5",
+    "@apollo/client": "^3.7.10",
+    "graphql": "^15.7.2",
+    "graphql-ws": "^5.14.0",
+    "ws": "^8.16.0"
+  },
+  "devDependencies": {
+    "@types/ws": "^8.5.10",
+    "typescript": "^5.3.3"
+  }
+}
